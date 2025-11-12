@@ -23,3 +23,4 @@ venv/
 *.pt
 *.h5
 models/
+.env
