@@ -1,26 +1,16 @@
-# Python
+echo "venv/
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-.Python
-
-# Virtual environments
-venv/
-env/
-.venv/
-
-# IDEs
-.vscode/
-.idea/
-
-# OS files
+.env
+.env/
 .DS_Store
-
-# Logs
 *.log
-
-# Model and large files (if any)
-*.pth
+.idea/
+.vscode/
 *.onnx
+*.pth
 *.dylib
+*.pkl
+" > .gitignore
