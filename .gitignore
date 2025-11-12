@@ -1,5 +1,16 @@
-# Ignore environment files and directories
+echo "__pycache__/
+*.pyc
+*.pyo
+*.pkl
 .env
-node_modules/
-dist/
 venv/
+.env
+instance/
+.DS_Store
+__pycache__/
+*.log
+*.sqlite3
+.cache/
+.idea/
+.vscode/
+" > .gitignore
