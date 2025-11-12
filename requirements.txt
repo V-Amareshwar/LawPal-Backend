@@ -1,0 +1,9 @@
+flask
+python-dotenv
+gunicorn
+sentence-transformers
+chromadb
+rank_bm25
+groq
+tiktoken
+numpy

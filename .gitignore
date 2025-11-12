@@ -1,0 +1,5 @@
+# Ignore environment files and directories
+.env
+node_modules/
+dist/
+venv/
