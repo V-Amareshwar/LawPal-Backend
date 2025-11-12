@@ -1,19 +1,25 @@
-echo "venv/
+# Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-.env
-.env/
-.DS_Store
-*.log
-.idea/
-.vscode/
-*.onnx
-*.pth
-*.dylib
 *.pkl
-" > .gitignore
-echo ".env
-.env/
-" >> .gitignore
+*.pickle
+
+# Virtual environment
+venv/
+.env
+
+# OS files
+.DS_Store
+
+# Cache and logs
+*.log
+*.cache/
+
+# Large model or data files
+*.onnx
+*.bin
+*.pt
+*.h5
+models/
