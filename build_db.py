@@ -2,12 +2,15 @@
 # This is a one-time script. Run this LOCALLY on your computer
 # or in the deployment environment's console ONCE.
 
+import ssl
+ssl._create_default_https_context = ssl._create_unverified_context
 import json
 import chromadb
 from sentence_transformers import SentenceTransformer
 from rank_bm25 import BM25Okapi
 import pickle
 import os
+
 
 print("--- Starting Database Build Process ---")
 
